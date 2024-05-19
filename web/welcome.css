@@ -1,0 +1,81 @@
+*{
+    font-family: Oswald;
+}
+
+body {
+
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    background-color: red;
+    background:url(background-red.jpg);
+    
+}
+
+.container {
+    
+   width: 800px;
+   max-width:800px;
+   margin: 0.3rem;
+   padding: 2rem;
+   box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+   border-radius: var(--border-radius);
+   background: #eeeeee;
+   justify-content: center;
+   text-align: center;
+   font: 500 1.5rem "Quicksand", Oswald;
+   
+}
+
+.name {
+    line-height: 0.65;
+    text-align: left;
+}
+
+.phone {
+    line-height: 0.65;
+    text-align: left;
+}
+
+.password {
+    line-height: 0.65;
+    text-align: left;
+}
+
+.phone__number {
+    line-height: 0.65;
+    text-align: left;
+}
+
+.email {
+    line-height: 0.65;
+    text-align: left;
+}
+
+.user__id {
+    line-height: 0.65;
+    text-align: left;
+}
+
+.logout__button {
+    color:rgb(250,110,110);
+    text-decoration: none;
+    border-radius: 4px;
+    border: 2px, solid, black;
+    line-height: 1.5;
+    text-align:right;
+}
+
+a {
+    border: 2px, solid, black;
+    transition: transform 0.2s ease;
+}
+a:hover {
+
+    color: rgb(252, 26, 26);
+    text-decoration: underline;
+}
+

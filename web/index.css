@@ -1,0 +1,81 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 14 Apr 2024, 6:20:51 pm
+    Author     : Big Bertha
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    --color-primary: rgb(250, 110, 110);
+    --color-primary-dark: rgb(252, 26, 26);
+    --border-radius: 4px;
+    
+    
+    margin: 0;
+    font-family: Oswald;
+    line-height: 1.5;
+}
+
+.int__showcase {
+    background: url(background-red.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.int__showcase img {
+    width: 420px;
+    height: 300px;
+}
+.int__showcase h1 {
+    color: white;
+    text-decoration: overline underline;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.int__showcase p {
+    color: white;
+    font-size: 30px;
+}
+
+.int__button {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.int__button-link {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    background: var(--color-primary-dark);
+    border: white 4px solid;
+    padding: 10px 15px;
+    margin-top: 10x;
+    border-radius: var(--border-radius);
+}
+
+.int__button-link:hover {    
+    text-decoration: underline;
+    color: white;
+    background: var(--text-color);
+}
+
+.int__button-link:active {
+    transform: scale(0.95);
+}
